@@ -24,15 +24,6 @@
     "posttest": "yarn lint",
     "version": "oclif readme && git add README.md"
   },
-  "oclif": {
-    "bin": "cli",
-    "commands": "./dist/commands",
-    "dirname": "cli",
-    "plugins": [
-      "@oclif/plugin-help",
-      "@oclif/plugin-plugins"
-    ]
-  },
   "dependencies": {
     "@oclif/core": "^3",
     "@oclif/plugin-help": "^6",
