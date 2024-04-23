@@ -3027,7 +3027,7 @@ __metadata:
     ts-node: "npm:^10.9.2"
     typescript: "npm:^5"
   bin:
-    cli-monorepo: ./packages/cli/bin/run.js
+    cli-monorepo: ./bin/run.js
   languageName: unknown
   linkType: soft
 
